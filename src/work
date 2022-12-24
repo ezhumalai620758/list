@@ -1,0 +1,3 @@
+setPersonaldata({dob: dayjs(), email: item.email, mobile: item.mobile, panCard: item.panCard, aadhar: item.aadhar, parentName: item.parentName, parentMobile: item.parentMobile, address1: item.address1, address2: item.address2, city: item.city, pinCode: item.pinCode, bloodGroup: item.bloodGroup, nationality: item.nationality, religion: item.religion, languages: item.languages, maritalStatus: item.maritalStatus})
+
+->select('u.id, u.dob, u.email, u.mobile, u.panCard, u.aadhar, u.parentName, u.parentMobile, u.address1, u.address2, u.city, u.pinCode, u.bloodGroup, u.nationality, u.religion, u.languages, u.maritalStatus')
